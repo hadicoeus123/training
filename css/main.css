@@ -136,7 +136,7 @@ iframe {
 }
 
 .wrap-contact3 {
-  width: 750px;
+  width: 800px;
   background: #f1a41a;
   background: -webkit-linear-gradient(45deg, #ed8e16, #f1a41a);
   background: -o-linear-gradient(45deg, #ed8e16, #f1a41a);
@@ -146,6 +146,7 @@ iframe {
   overflow: hidden;
   padding: 72px 55px 65px 55px;
   opacity: 0.79;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.59);
 }
 
 
@@ -166,13 +167,27 @@ iframe {
 
 
 
+input[type = file]{
+  color: white;
+  border: 1px solid rgba(255,255,255,0.5);
+
+}
+
+
+input[type = time]{
+  color: white;
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+}
 
 
 .wrap-input3 {
-  width: 100%;
+  width: 75%;
   position: relative;
   border-bottom: 2px solid rgba(255,255,255,0.24);
   margin-bottom: 27px;
+  margin-left: 10%;
 
 }
 
@@ -225,6 +240,7 @@ textarea.input3 {
   min-height: 115px;
   padding-top: 13px;
   padding-bottom: 13px;
+
 }
 
 
